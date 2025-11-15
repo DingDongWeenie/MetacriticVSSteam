@@ -7,14 +7,14 @@ The main finding is: **Steam popularity is mostly driven by player engagement—
 ---
 
 ## 📂 Project Structure
-
+```
 MetacriticVSSteam/
 ├── analyze_games.py # Main Python script
 ├── steam_spy_data.csv # Steam game data
 ├── metacritic_Toppc_games.csv # Metacritic PC game data
 ├── graphs/ # Automatically generated graphs
 └── README.md # Project documentation
-
+```
 
 ---
 
