@@ -102,3 +102,46 @@ The script generates and saves **graphs in the `graphs/` folder**:
 All graphs are saved automatically as PNG files when you run the script.
 
 ---
+
+## ⚡ How to Run
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/<your-username>/MetacriticVSSteam.git
+cd MetacriticVSSteam
+```
+
+2. Create and activate a virtual environment:
+
+```
+python -m venv .venv
+# Windows
+.venv\Scripts\activate
+# macOS/Linux
+source .venv/bin/activate
+```
+
+3. Install dependencies:
+```
+pip install pandas numpy scikit-learn matplotlib rapidfuzz
+```
+
+4. Run the code:
+```
+python analyze_games.py
+```
+
+🔑 Key Insights
+
+Positive reviews are the strongest predictor of popularity.
+
+Negative reviews matter: fewer complaints → higher popularity.
+
+Concurrent users show real-time popularity.
+
+Average and median playtime indicate engagement.
+
+Critic scores have minimal influence on Steam popularity.
+
+Conclusion: Steam popularity is driven by player engagement, not critic ratings. 🎮
