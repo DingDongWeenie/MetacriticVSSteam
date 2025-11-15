@@ -132,7 +132,7 @@ pip install pandas numpy scikit-learn matplotlib rapidfuzz
 python analyze_games.py
 ```
 
-🔑 Key Insights
+## 🔑 Key Insights
 
 Positive reviews are the strongest predictor of popularity.
 
